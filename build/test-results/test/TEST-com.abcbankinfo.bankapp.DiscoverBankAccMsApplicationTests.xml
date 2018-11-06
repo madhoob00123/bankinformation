@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-06T19:57:49" hostname="cdelabs-OptiPlex-7060" time="0.004">
+  <properties/>
+  <testcase name="contextLoads" classname="com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests" time="0.004"/>
+  <system-out><![CDATA[13:57:46.681 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.684 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:57:46.688 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:57:46.697 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:57:46.703 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests], using SpringBootContextLoader
+13:57:46.704 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]: class path resource [com/abcbankinfo/bankapp/DiscoverBankAccMsApplicationTests-context.xml] does not exist
+13:57:46.704 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]: class path resource [com/abcbankinfo/bankapp/DiscoverBankAccMsApplicationTestsContext.groovy] does not exist
+13:57:46.704 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:57:46.705 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]: DiscoverBankAccMsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:57:46.722 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.752 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/cdelabs/workspace/bankinformation/build/classes/java/main/com/abcbankinfo/bankapp/DiscoverBankAccMsApplication.class]
+13:57:46.752 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.abcbankinfo.bankapp.DiscoverBankAccMsApplication for test class com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests
+13:57:46.798 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]: using defaults.
+13:57:46.798 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:57:46.806 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@573dc952, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28f41515, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@22a67ce, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3afdcfe1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@333e6b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@b67177b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5aa205ce, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ef44bbc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@12ee1299, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@21811370, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6b47eefb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47c2e184]
+13:57:46.807 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.807 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.808 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.808 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.810 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3d8582da testClass = DiscoverBankAccMsApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5de3c9cf testClass = DiscoverBankAccMsApplicationTests, locations = '{}', classes = '{class com.abcbankinfo.bankapp.DiscoverBankAccMsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a47c059, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@282acfd0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@16246e8d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4fa8afe9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:57:46.810 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.810 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.abcbankinfo.bankapp.DiscoverBankAccMsApplicationTests]
+13:57:46.820 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2018-11-06 13:57:46.989  INFO 22807 --- [    Test worker] c.a.b.DiscoverBankAccMsApplicationTests  : Starting DiscoverBankAccMsApplicationTests on cdelabs-OptiPlex-7060 with PID 22807 (started by cdelabs in /home/cdelabs/workspace/bankinformation)
+2018-11-06 13:57:46.989  INFO 22807 --- [    Test worker] c.a.b.DiscoverBankAccMsApplicationTests  : No active profile set, falling back to default profiles: default
+2018-11-06 13:57:47.411  INFO 22807 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-06 13:57:47.471  INFO 22807 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 1 repository interfaces.
+2018-11-06 13:57:47.697  INFO 22807 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3984aa18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-06 13:57:47.760 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : Driver class org.h2.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@73d16e93
+2018-11-06 13:57:47.829 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2018-11-06 13:57:47.830 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2018-11-06 13:57:47.831 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : driverClassName................."org.h2.Driver"
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+2018-11-06 13:57:47.832 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2018-11-06 13:57:47.833 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2018-11-06 13:57:47.834 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2018-11-06 13:57:47.834 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2018-11-06 13:57:47.834 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2018-11-06 13:57:47.834 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2018-11-06 13:57:47.834 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : username........................"sa"
+2018-11-06 13:57:47.834 DEBUG 22807 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2018-11-06 13:57:47.834  INFO 22807 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-11-06 13:57:47.916  INFO 22807 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-11-06 13:57:47.965  INFO 22807 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-06 13:57:48.004  INFO 22807 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-06 13:57:48.006  INFO 22807 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-11-06 13:57:48.033  INFO 22807 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-06 13:57:48.108  INFO 22807 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-11-06 13:57:48.358  INFO 22807 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@39c62333'
+2018-11-06 13:57:48.360  INFO 22807 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-06 13:57:48.698  WARN 22807 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-06 13:57:48.834  INFO 22807 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-06 13:57:49.175  INFO 22807 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-06 13:57:49.348  INFO 22807 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-11-06 13:57:49.362  INFO 22807 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 2 custom documentation plugin(s)
+2018-11-06 13:57:49.378  INFO 22807 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-06 13:57:49.469  INFO 22807 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-11-06 13:57:49.473  INFO 22807 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: checkBalanceUsingGET_1
+2018-11-06 13:57:49.476  INFO 22807 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createBankInfoUsingPOST_1
+2018-11-06 13:57:49.477  INFO 22807 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: depositUsingPUT_1
+2018-11-06 13:57:49.478  INFO 22807 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getMessageUsingGET_1
+2018-11-06 13:57:49.479  INFO 22807 --- [    Test worker] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: withdrawUsingPUT_1
+2018-11-06 13:57:49.485  INFO 22807 --- [    Test worker] c.a.b.DiscoverBankAccMsApplicationTests  : Started DiscoverBankAccMsApplicationTests in 2.662 seconds (JVM running for 3.426)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

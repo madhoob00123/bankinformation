@@ -1,0 +1,43 @@
+logging:
+  level:
+    com.zaxxer.hikari.HikariConfig: DEBUG
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env, info, health
+
+---
+spring:
+  profiles: local
+  jpa:
+    generate-ddl: true
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+server:
+  port: 9010
+eureka:
+  client:
+    enabled: false
+
+#---
+#spring:
+#  profiles: cloud
+#  jpa:
+#    generate-ddl: true
+#    show-sql: true
+#    hibernate:
+#      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+#      ddl-auto: update
+#  datasource:
+#    url: jdbc:mysql://mysql.mysql:3306/sampledb?useSSL=false
+#    driverClassName: com.mysql.jdbc.Driver
+#    username: bankinfo
+#    password: bankinfo
