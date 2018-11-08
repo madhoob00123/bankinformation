@@ -23,7 +23,7 @@ public class BankController {
 
     @GetMapping("/demo")
     public String getMessage(){
-        return "Hello world  !!!!!";
+        return "Hello world ";
     }
 
     @GetMapping("/{id}")
